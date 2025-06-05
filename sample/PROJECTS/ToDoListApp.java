@@ -72,8 +72,8 @@ public class ToDoListApp {
 				System.out.println("Invalid choice! Please choose a valid option.");
 				break;
 			}
-			
+			sc.close();
 		}
-		sc.close();
+		
 	}
 }
